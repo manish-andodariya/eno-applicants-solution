@@ -41,10 +41,7 @@ function App() {
 
     return (
         <div className={classes.formRoot}>
-            <Typography variant="h2">Invoice form</Typography>
-            <Grid container spacing={2}>
-                <BasicsSection register={register} errors={errors} />
-            </Grid>
+            <BasicsSection register={register} errors={errors} control={control} />
         </div>
     );
 }

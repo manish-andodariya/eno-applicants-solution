@@ -6,7 +6,7 @@ import ENOTooltip from "./ENOTooltip";
 
 export interface ENOTextFieldProps<T extends FieldValues>
     extends ENOFieldProps<T>,
-        Omit<OutlinedTextFieldProps, ENOFieldOverrides> {
+    Omit<OutlinedTextFieldProps, ENOFieldOverrides> {
     variant?: TextFieldProps["variant"];
 }
 
